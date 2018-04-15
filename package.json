@@ -1,0 +1,79 @@
+{
+  "name": "anywhere",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/app.js",
+  "bin": {
+    "anywhere": "bin/anywhere"
+  },
+  "dependencies": {
+    "_buffer-from@1.0.0@buffer-from": "^1.0.0",
+    "_concat-stream@1.6.2@concat-stream": "^1.6.2",
+    "_core-util-is@1.0.2@core-util-is": "^1.0.2",
+    "_cross-spawn@5.1.0@cross-spawn": "^5.1.0",
+    "_inherits@2.0.3@inherits": "^2.0.3",
+    "_isarray@1.0.0@isarray": "^1.0.0",
+    "_isexe@2.0.0@isexe": "^2.0.0",
+    "_lru-cache@4.1.2@lru-cache": "^4.1.2",
+    "_os-shim@0.1.3@os-shim": "^0.1.3",
+    "_pre-commit@1.2.2@pre-commit": "^1.2.2",
+    "_process-nextick-args@2.0.0@process-nextick-args": "^2.0.0",
+    "_pseudomap@1.0.2@pseudomap": "^1.0.2",
+    "_readable-stream@2.3.6@readable-stream": "^2.3.6",
+    "_safe-buffer@5.1.1@safe-buffer": "^5.1.1",
+    "_shebang-command@1.2.0@shebang-command": "^1.2.0",
+    "_shebang-regex@1.0.0@shebang-regex": "^1.0.0",
+    "_spawn-sync@1.0.15@spawn-sync": "^1.0.15",
+    "_string_decoder@1.1.1@string_decoder": "^1.1.1",
+    "_typedarray@0.0.6@typedarray": "^0.0.6",
+    "_util-deprecate@1.0.2@util-deprecate": "^1.0.2",
+    "_which@1.2.14@which": "^1.2.14",
+    "_which@1.3.0@which": "^1.3.0",
+    "_yallist@2.1.2@yallist": "^2.1.2",
+    "buffer-from": "^1.0.0",
+    "concat-stream": "^1.6.2",
+    "core-util-is": "^1.0.2",
+    "cross-spawn": "^5.1.0",
+    "inherits": "^2.0.3",
+    "isarray": "^1.0.0",
+    "isexe": "^2.0.0",
+    "lru-cache": "^4.1.2",
+    "os-shim": "^0.1.3",
+    "pre-commit": "^1.2.2",
+    "process-nextick-args": "^2.0.0",
+    "pseudomap": "^1.0.2",
+    "readable-stream": "^2.3.6",
+    "safe-buffer": "^5.1.1",
+    "shebang-command": "^1.2.0",
+    "shebang-regex": "^1.0.0",
+    "spawn-sync": "^1.0.15",
+    "string_decoder": "^1.1.1",
+    "typedarray": "^0.0.6",
+    "util-deprecate": "^1.0.2",
+    "which": "^1.3.0",
+    "yallist": "^2.1.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "pre-commit": "^1.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ww415226370/anywhere.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ww415226370/anywhere/issues"
+  },
+  "homepage": "https://github.com/ww415226370/anywhere#readme"
+}
